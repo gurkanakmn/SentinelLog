@@ -1,0 +1,51 @@
+# ==============================================================================
+# PROJECT PROPERTIES
+# ==============================================================================
+PROJECT_NAME           = "Advanced C++ Logging Framework"
+PROJECT_NUMBER         = 1.0.0
+PROJECT_BRIEF          = "An asynchronous, thread-safe, and high-performance logging engine with HotReload support."
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = English
+
+# ==============================================================================
+# INPUT SETTINGS
+# ==============================================================================
+INPUT                  = include src samples README.md
+FILE_PATTERNS          = *.h *.cpp *.md
+RECURSIVE              = YES
+USE_MDRUNTIME_VIEWER   = YES
+
+# ==============================================================================
+# EXTRACTION SETTINGS
+# ==============================================================================
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+JAVADOC_AUTOBRIEF      = YES
+
+# ==============================================================================
+# C++ SPECIFIC SETTINGS
+# ==============================================================================
+BUILTIN_STL_SUPPORT    = YES
+INLINE_SOURCES         = NO
+SOURCE_BROWSER         = YES
+
+# ==============================================================================
+# DIAGRAMS & GRAPHVIZ (Requires Graphviz installed)
+# ==============================================================================
+HAVE_DOT               = YES
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DIRECTORY_GRAPH        = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+
+# ==============================================================================
+# BUILD OUTPUTS
+# ==============================================================================
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+USE_MATHJAX            = YES
