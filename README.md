@@ -120,4 +120,3 @@ The project includes full Doxygen support for API references.
 ## License
 This project is licensed under the MIT License.
 
-Readme dosyası olmuş mu
